@@ -1,0 +1,16 @@
+<div class="flower_stem_leaf flower_stem_leaf_1"></div>
+
+<style>
+    .flower_stem_leaf_1 {
+        transform: rotate(70deg) rotateY(30deg);
+        animation: blooming-leaf-right var(--fl-speed) 1.3s backwards;
+    }
+
+    @keyframes blooming-leaf-right {
+        0% {
+            transform-origin: left;
+            transform: rotate(70deg) rotateY(30deg) scale(0);
+        }
+    }
+
+</style>

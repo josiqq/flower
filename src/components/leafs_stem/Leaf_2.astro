@@ -1,0 +1,21 @@
+<div class="flower_stem_leaf flower_stem_leaf_2"></div>
+
+<style>
+    .flower_stem_leaf_2 {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: var(--h);
+        border-bottom-right-radius: var(--h);
+        left: -460%;
+        top: 12%;
+        transform: rotate(-70deg) rotateY(30deg);
+        animation: blooming-leaf-left var(--fl-speed) 1.2s backwards;
+    }
+
+    @keyframes blooming-leaf-left {
+        0% {
+            transform-origin: right;
+            transform: rotate(-70deg) rotateY(30deg) scale(0);
+        }
+    }
+</style>
