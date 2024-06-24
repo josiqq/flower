@@ -15,5 +15,5 @@ $ npm run dev
 $ npm run build
 ```
 
-
+don't complain about performance, tks :)
 
